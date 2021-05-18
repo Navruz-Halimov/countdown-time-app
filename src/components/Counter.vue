@@ -30,7 +30,7 @@
       </div>
     </section>
   </div>
-  <div v-else></div>
+  <div v-else> Not Loaded</div>
 </template>
 
 <script>

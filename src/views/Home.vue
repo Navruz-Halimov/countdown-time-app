@@ -1,8 +1,8 @@
 <template>
   <div>
     <Counter
-      :year="2021"
-      :month="2"
+      :year="2022"
+      :month="12"
       :date="20"
       :hour="0"
       :minute="0"
