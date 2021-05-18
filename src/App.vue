@@ -1,7 +1,12 @@
 <template>
-  <div class="p-14 ">
+  <div class="p-14 wrapper">
     <router-view />
   </div>
 </template>
 
-<style></style>
+<style  scoped>
+.wrapper{
+  background-color: #50aeb2;
+  height: 100vh;
+}
+</style>

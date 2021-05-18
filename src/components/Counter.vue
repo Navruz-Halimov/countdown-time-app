@@ -1,13 +1,13 @@
 <template>
   <div v-if="loaded">
     <section
-      class="text-3xl flex justify-center content-center flex-col mx-auto text-center"
+      class="text-3xl flex justify-center content-center flex-col mx-auto text-center counter"
     >
       <h5 v-if="!expired">By now</h5>
       <h5 v-else>Timer is done</h5>
     </section>
-    <section class="flex text-6xl justify-center content-center ">
-      <div class="flex text-6xl justify-center content-center custom__box ">
+    <section class="flex text-6xl justify-center content-center counter__inner">
+      <div class="flex text-6xl justify-center content-center custom__box">
         <div class="days mr-2 relative">
           {{ displayDays }} 
           <div class="label text-sm absolute bottom-0">days</div>
@@ -108,6 +108,12 @@ export default {
 </script>
 
 <style>
+.counter{
+  color:white;
+}
+.counter__inner{
+  color:white;
+}
 .seconds {
   max-width: 60px;
 }
@@ -120,5 +126,6 @@ export default {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
     border-radius: 10px;
     padding: 10px;
+    background-color: #c9c822;
 }
 </style>

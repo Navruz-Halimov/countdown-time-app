@@ -21,6 +21,3 @@ import Counter from '@/components/Counter'
   }
 </script>
 
-<style lang="scss" scoped>
-
-</style>
